@@ -27,13 +27,15 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "lint": "tsdx lint src",
-    "postinstall": "yarn build"
+    "lint": "tsdx lint src"
   },
   "dependencies": {
     "@web3-react/injected-connector": "^6.0.7",
     "@web3-react/types": "^6.0.7",
     "tiny-warning": "^1.0.3"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "tsdx": "^0.14.1"
+  }
 }
