@@ -27,7 +27,8 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "lint": "tsdx lint src"
+    "lint": "tsdx lint src",
+    "postinstall": "yarn build"
   },
   "dependencies": {
     "@web3-react/injected-connector": "^6.0.7",
